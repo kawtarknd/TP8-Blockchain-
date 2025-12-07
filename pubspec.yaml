@@ -1,0 +1,31 @@
+name: hello_world
+description: "HelloWorld Flutter Web3 DApp"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # === Dépendances de DApp ===
+  provider: ^6.1.2
+  http: ^1.2.2
+  web3dart: ^2.7.3
+  web_socket_channel: ^2.4.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - src/artifacts/HelloWorld.json
